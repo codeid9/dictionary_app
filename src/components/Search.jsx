@@ -20,7 +20,7 @@ function Search({ fetchData }) {
                     }}
                 />
                 <button
-                    className="flex w-24 bg-transparent morph-shadow justify-center items-center gap-4 rounded m-1 cursor-pointer active:scale-95"
+                    className="hidden sm:flex w-24 bg-transparent morph-shadow justify-center items-center gap-4 rounded m-1 cursor-pointer active:scale-95"
                     onClick={() => {
                         fetchData(searchText);
                         setSearchText("");
